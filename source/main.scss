@@ -1,28 +1,7 @@
-$colorPrincipal: #eee;
-$colorText: #111;
+@use './config/reset.scss';
+@use './secoes/produtos.scss';
+@use './config/cores.scss';
 
 body {
-    background-color: $colorPrincipal;
-}
-
-header {
-    background-color: $colorPrincipal;
-
-    h1 {
-        color: $colorText;
-    }
-}
-
-button {
-    padding: 16px;
-    background-color: $colorText;
-    color: $colorPrincipal;
-
-    &:hover {
-        background-color: yellow;
-    }
-
-    &.sucesso {
-        background-color: green;
-    }
+    background-color: cores.$corDeFundo;
 }
