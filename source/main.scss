@@ -1,0 +1,28 @@
+$colorPrincipal: #eee;
+$colorText: #111;
+
+body {
+    background-color: $colorPrincipal;
+}
+
+header {
+    background-color: $colorPrincipal;
+
+    h1 {
+        color: $colorText;
+    }
+}
+
+button {
+    padding: 16px;
+    background-color: $colorText;
+    color: $colorPrincipal;
+
+    &:hover {
+        background-color: yellow;
+    }
+
+    &.sucesso {
+        background-color: green;
+    }
+}
